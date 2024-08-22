@@ -1,8 +1,7 @@
-
-
-
-
-
+/*STYLESHEET IMPORTS*/
+@import "layout.css";
+@import "mediaqueries.css";
+@import "responsive-nav.css";
 
 /*BASIC STYLING AND VARIABLES*/
 *,
@@ -26,15 +25,15 @@
     --fs-h3: 1.5em;
     --fs-main: 1em;
 
+    --ff-style:"Maven Pro", sans-serif;
+
     /*--ff-lower:;
     --ff-upper:;*/
 
     --fw-small: 400;
-    --fw-large: 900;
+    --fw-large: 600;
+    --fw-largest: 800;
 }
-
-/* INSERT MEDIA QUERY FOR 900PX MAX*/
-
 
 
 /*TEXT SECTION*/
@@ -52,6 +51,7 @@ body{
     /*font-family: ;*/
     line-height: 1.5em;
     margin: 0;
+    font-family: var(--ff-style);
 }
 
 img{
@@ -89,14 +89,19 @@ img{
     width: 10em;
     text-align: left;
     left: 0;
+    font-family: var(--ff-style);
 }   
 
 strong{
-    font: var(--fw-large);
+    font: var(--fw-largest);
 }
 
 .dev-picture-intro {
     height: 25em;
+    padding: 0;
+    border: 2px solid white;
+    box-shadow: 1px 1px 2px white;
+    margin: 2em;
 }
 
 /*SERVICES SECTION STYLE*/
@@ -128,10 +133,52 @@ strong{
 
 .about-me{
     padding: 3em;
+    font-weight: var(--fw-small);
 }
 
 .who-am-i{
     height: 25em;
+    border: 2px solid white;
+    box-shadow: 1px 1px 2px white;
 }
 
 /*PORTFOLIO SECTION STYLING*/
+
+.portfolio{
+    background-color: var(--box-color);
+}
+
+
+
+.portfolio-heading{
+    font-family: var(--ff-style);
+    
+}
+
+.portfolio-items{
+    
+}
+
+.portfolio-items > img{
+    border: 2px solid black;
+    border-radius: 7%;
+}
+
+/*FOOTER SECTION STYLING*/
+
+.contact-me{
+    background-color: var(--footer-color);
+    border-top: 2px solid black;
+    
+}
+
+span{
+    padding: 1em;
+    
+}
+
+span a img{
+    width: 30px;
+    height: auto;
+   
+}
