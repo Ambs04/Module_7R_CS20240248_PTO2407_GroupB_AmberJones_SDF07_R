@@ -11,7 +11,7 @@
 }
 
 :root{
-    --nav-color: #e0d9e0;
+    --nav-color: #efd0df;
     --box-color: #91b7cf;
     --bg-color: #d49bb4;
     --footer-color: #b75e80 ;
@@ -33,6 +33,14 @@
     --fw-small: 400;
     --fw-large: 600;
     --fw-largest: 800;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 4em 2em;
 }
 
 
@@ -86,13 +94,22 @@ img{
 
 .nav-bar{
     background-color: var(--nav-color);
-    color: var(--font-color-nav);
+    filter:
+    
 }
 
 .nav-list{
     list-style-type: none;
+    font-weight: var(--fw-large);
+    font-size: var(--fs-h2);
+    
+    
 }
 
+li > a{
+    color: var(--font-color-nav);
+    text-decoration: none;
+}
 
 /*INTRO SECTION STYLE*/
 
@@ -172,9 +189,9 @@ strong{
     
 }
 
-.portfolio-items{
+/*.portfolio-items{
     
-}
+}*/
 
 .portfolio-items > img{
     border: 2px solid black;
