@@ -1,3 +1,9 @@
+
+
+
+
+
+
 /*BASIC STYLING AND VARIABLES*/
 *,
 *::before,
@@ -20,8 +26,8 @@
     --fs-h3: 1.5em;
     --fs-main: 1em;
 
-    --ff-lower:;
-    --ff-upper:;
+    /*--ff-lower:;
+    --ff-upper:;*/
 
     --fw-small: 400;
     --fw-large: 900;
@@ -54,9 +60,9 @@ img{
     object-fit: cover;
 }
 
-header{
+/*header{
 
-}
+}*/
 
 .logo{
     margin: 0;
@@ -105,18 +111,18 @@ strong{
     
 }
 
-.service-heading{
+/*.service-heading{
     
-}
+}*/
 
 .service{
     padding: 1em;
     line-height: 1em;
 }
 
-.service > p{
+/*.service > p{
     
-}
+}*/
 
 /*ABOUT ME SECTION STYLES*/
 
