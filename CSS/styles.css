@@ -79,7 +79,19 @@ img{
 
 /*NAV SECTION STYLE*/
 
+.nav-btn{
+    width: 60px;
+    height: auto;
+}
 
+.nav-bar{
+    background-color: var(--nav-color);
+    color: var(--font-color-nav);
+}
+
+.nav-list{
+    list-style-type: none;
+}
 
 
 /*INTRO SECTION STYLE*/
