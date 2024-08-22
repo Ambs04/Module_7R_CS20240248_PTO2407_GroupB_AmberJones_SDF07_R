@@ -98,9 +98,9 @@ img{
 
 .intro-heading{
     background-color: var(--box-color);
-    width: 10em;
     text-align: left;
-    left: 0;
+    margin: 0;
+    padding: 0;
     font-family: var(--ff-style);
 }   
 
@@ -116,30 +116,35 @@ strong{
     margin: 2em;
 }
 
+.intro-dev-type{
+    font-weight: var(--fw-large);
+    align-items: center;
+}
+
 /*SERVICES SECTION STYLE*/
 
 .services{
     background-color: var(--box-color);
     line-height: 1em;
-    border: 6px solid white;
+    box-shadow: 10px 0px 3px white;
+    border-top: 6px solid white;
+    border-bottom: 6px solid white;
     padding: 2em;
     margin:0;
     height: 30em;
-    
 }
-
-/*.service-heading{
-    
-}*/
 
 .service{
     padding: 1em;
     line-height: 1em;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
-/*.service > p{
-    
-}*/
+.services-heading{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
 
 /*ABOUT ME SECTION STYLES*/
 
