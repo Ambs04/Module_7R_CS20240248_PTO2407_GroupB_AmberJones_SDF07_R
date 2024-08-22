@@ -1,0 +1,131 @@
+/*BASIC STYLING AND VARIABLES*/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --nav-color: #e0d9e0;
+    --box-color: #91b7cf;
+    --bg-color: #d49bb4;
+    --footer-color: #b75e80 ;
+
+    --font-color-main: white;
+                        text-shadow: 1px 1px 2px black;
+    --font-color-nav: black;
+
+    --fs-h1: 3em;
+    --fs-h2: 2.5em;
+    --fs-h3: 1.5em;
+    --fs-main: 1em;
+
+    --ff-lower:;
+    --ff-upper:;
+
+    --fw-small: 400;
+    --fw-large: 900;
+}
+
+/* INSERT MEDIA QUERY FOR 900PX MAX*/
+
+
+
+/*TEXT SECTION*/
+h1{size: var(--fs-h1);}
+h2{size: var(--fs-h2);}
+h3{size: var(--fs-h3);}
+
+
+/*STYLING SECTION*/
+
+body{
+    background: var(--bg-color);
+    color: var(--font-color-main);
+    font-size: var(--fs-main);
+    /*font-family: ;*/
+    line-height: 1.5em;
+    margin: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+header{
+
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+}
+
+.logo >img{
+    border: 3px solid white;
+    border-radius: 25%;
+    width: 10em;
+
+}
+
+
+/*NAV SECTION STYLE*/
+
+
+
+
+/*INTRO SECTION STYLE*/
+
+.intro-heading{
+    background-color: var(--box-color);
+    width: 10em;
+    text-align: left;
+    left: 0;
+}   
+
+strong{
+    font: var(--fw-large);
+}
+
+.dev-picture-intro {
+    height: 25em;
+}
+
+/*SERVICES SECTION STYLE*/
+
+.services{
+    background-color: var(--box-color);
+    line-height: 1em;
+    border: 6px solid white;
+    padding: 2em;
+    margin:0;
+    height: 30em;
+    
+}
+
+.service-heading{
+    
+}
+
+.service{
+    padding: 1em;
+    line-height: 1em;
+}
+
+.service > p{
+    
+}
+
+/*ABOUT ME SECTION STYLES*/
+
+.about-me{
+    padding: 3em;
+}
+
+.who-am-i{
+    height: 25em;
+}
+
+/*PORTFOLIO SECTION STYLING*/
