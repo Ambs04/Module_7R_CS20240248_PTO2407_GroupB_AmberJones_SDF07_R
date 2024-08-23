@@ -90,7 +90,6 @@ img{
 
 .nav-bar{
     background-color: var(--nav-color);
-    filter:
     
 }
 
@@ -183,6 +182,8 @@ strong{
 
 .portfolio{
     background-color: var(--box-color);
+    left: 0;
+    right: 0;
 }
 
 
@@ -192,9 +193,9 @@ strong{
     
 }
 
-/*.portfolio-items{
-    
-}*/
+.portfolio-items{
+    padding: 2em;
+}
 
 .portfolio-items > img{
     border: 2px solid black;

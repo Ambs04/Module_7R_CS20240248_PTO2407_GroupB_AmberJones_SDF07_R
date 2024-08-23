@@ -87,24 +87,71 @@ header{
 
 /*ABOUT ME SECTION LAYOUT*/
 
-
-
-
-
-
-
-
-
-
-
-
-/*MY WORK SECTION LAYOUT*/
-.portfolio.heading{
+.about-me-heading{
     text-align: center;
     text-decoration: underline;
 }
 
+.about-me{
+    display: grid;
+    grid-auto-columns: 2;
+
+}
+
+.me-info{
+    grid-column: 1 / 2;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.who-am-i{
+    grid-column: 2 / 3;
+}
+
+
+/*MY WORK SECTION LAYOUT*/
+
+.portfolio-heading{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
 .portfolio-items{
     display: grid;
-    grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 4px;
+    padding-left : 2em;
+}
+
+.img-1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.img-2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.img-3{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.img-4{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.img-5{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.img-6{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    vertical-align: middle;
 }
