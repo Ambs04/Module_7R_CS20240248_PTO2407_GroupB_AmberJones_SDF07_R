@@ -155,3 +155,18 @@ header{
     grid-row: 2 / 3;
     vertical-align: middle;
 }
+
+/*FOOTER SECTION LAYOUT*/
+
+td{
+    padding: 1.5em;
+    margin: auto;
+}
+
+span{
+    display: inline-block;
+}
+
+td > a{
+    color:white;
+}
