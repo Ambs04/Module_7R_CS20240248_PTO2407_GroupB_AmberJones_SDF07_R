@@ -31,12 +31,12 @@
 
 .nav-btn{
     padding: 0.2em;
-    background: transparent;
-    border: 1px solid white;
+    background-color: var(--footer-color);
+    border: 0;
     position: absolute;
     cursor: pointer;
-    right: 0.5em;
-    top: 0.5em;
+    right: 1em;
+    top: 1em;
     z-index: 1000;
 }
 
@@ -67,8 +67,8 @@
     position:relative;
 }
 
-.hamburger, 
-.hamburger::before, .hamburger::after{
+.hamburger-menu, 
+.hamburger-menu::before, .hamburger-menu::after{
     content: '';
     position:absolute;
     left: 0;
@@ -76,5 +76,5 @@
 
 }
 
-.hamburger::before{ top: 7px;}
-.hamburger::after{ bottom: 7px;}
+.hamburger-menu::before{ top: 7px;}
+.hamburger-menu::after{ bottom: 7px;}
