@@ -1,1 +1,11 @@
 /* INSERT MEDIA QUERY FOR 900PX MAX*/
+@media all (min-width: 900px){
+    :root{
+        --fs-h1: 4rem;
+        --fs-h2: 3.8rem;
+        --fs-h3: 2 rem;
+        --fs-body: 1.2 rem;
+    }
+    grid-gap: 4px;
+
+}

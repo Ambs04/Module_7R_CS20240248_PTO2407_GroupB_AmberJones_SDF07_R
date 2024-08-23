@@ -43,7 +43,8 @@ header{
 .services{
     display: grid;
     grid-template-columns: 50% 50% ;
-    grid-template-rows: 30% 35% 35%;
+    grid-template-rows: 30% 25% 35%;
+    grid-gap: 7px;
 }
 
 .services-heading{
@@ -51,29 +52,58 @@ header{
     grid-column: 1 / 3;
     text-align: center;
     padding-top: 1.5em;
-
+    
 }
 
 .service1{
     grid-row: 2 / 3;
     grid-column: 1 / 2;
+    text-align: center;
+    border-right: 2px solid white;
 }
 
 .service2{
     grid-row: 2 / 3;
     grid-column: 2 / 3 ;
-
+    text-align: center;
+    
 }
 
 .para1{
     grid-row: 3 / 4;
     grid-column: 1 / 2 ;
+    text-align: center;
+    padding:0;
+    border-right: 2px solid white;
 }
 
 .para2{
     grid-row: 3 / 4;
     grid-column: 2 / 3 ;
+    text-align: center;
+    padding:0;
 }
 
 /*ABOUT ME SECTION LAYOUT*/
 
+
+
+
+
+
+
+
+
+
+
+
+/*MY WORK SECTION LAYOUT*/
+.portfolio.heading{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+}
