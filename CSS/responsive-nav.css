@@ -1,4 +1,4 @@
-.nav-bar{
+/*.nav-bar{
     position: fixed;
     top: 0;
     bottom: 0;
@@ -80,4 +80,43 @@
 
 .hamburger-menu::after{ 
     bottom: 7px;
+}
+*/
+
+
+.nav-list{
+    color: var(--font-color-nav);
+    text-decoration: underline;
+}
+
+.nav-link a:hover{
+    color: white;
+    font-size: small;
+    cursor: pointer;
+}
+
+.nav-bar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0.5em;
+
+}
+
+tr{
+    display: inline;
+}
+
+.td-1{
+    width: 40%;
+    height: auto;
+}
+
+.td-2{
+    width: 60%;
+    height: auto;
+}
+
+.nav-span {
+    display: inline-block;
 }
