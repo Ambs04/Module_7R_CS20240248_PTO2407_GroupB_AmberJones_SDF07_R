@@ -1,5 +1,5 @@
 /* INSERT MEDIA QUERY FOR 900PX MAX*/
-@media all (min-width: 900px){
+@media (min-width: 900px){
     :root{
         --fs-h1: 4rem;
         --fs-h2: 3.8rem;
@@ -10,7 +10,7 @@
 }
 
 @media (min-width: 600px){
-   .intro, .services, {
+   .intro, .services, .about-me, .portfolio {
     display: grid;
     width: min-content;
     grid-gap: 6px;
