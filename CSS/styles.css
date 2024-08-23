@@ -83,7 +83,7 @@ img{
 
 /*NAV SECTION STYLE*/
 
-.nav-btn{
+#nav-btn{
     width: 4em;
     height: 5em;
 }
@@ -207,6 +207,11 @@ strong{
 .contact-me{
     background-color: var(--footer-color);
     border-top: 2px solid white;
+    
+}
+
+table{
+    justify-content: space-between;
     
 }
 
