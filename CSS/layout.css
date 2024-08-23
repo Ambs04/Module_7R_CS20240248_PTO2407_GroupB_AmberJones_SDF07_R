@@ -3,11 +3,11 @@
 /*HEADER SECTION STYLE*/
 
 header{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+
 }
-
-
-
 
 /*INTRO SECTION LAYOUT*/
 
@@ -15,7 +15,7 @@ header{
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 60% 40%;
-
+    grid-gap: 0px;
 }
 
 .intro-heading{
@@ -76,3 +76,4 @@ header{
 }
 
 /*ABOUT ME SECTION LAYOUT*/
+

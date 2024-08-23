@@ -68,10 +68,6 @@ img{
     object-fit: cover;
 }
 
-/*header{
-
-}*/
-
 .logo{
     margin: 0;
     padding: 0;
@@ -112,6 +108,10 @@ li > a{
 }
 
 /*INTRO SECTION STYLE*/
+
+.intro{
+    border-top: 2px solid white;
+}
 
 .intro-heading{
     background-color: var(--box-color);
@@ -202,7 +202,7 @@ strong{
 
 .contact-me{
     background-color: var(--footer-color);
-    border-top: 2px solid black;
+    border-top: 2px solid white;
     
 }
 
