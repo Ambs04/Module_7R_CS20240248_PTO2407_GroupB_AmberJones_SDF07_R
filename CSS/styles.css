@@ -84,8 +84,8 @@ img{
 /*NAV SECTION STYLE*/
 
 .nav-btn{
-    width: 3em;
-    height: 3em;
+    width: 4em;
+    height: 5em;
 }
 
 .nav-bar{
@@ -115,10 +115,12 @@ li > a{
 
 .intro-heading{
     background-color: var(--box-color);
-    text-align: left;
+    text-align: center;
     margin: 0;
     padding: 0;
     font-family: var(--ff-style);
+    position: relative;
+
 }   
 
 strong{
@@ -131,11 +133,12 @@ strong{
     border: 2px solid white;
     box-shadow: 1px 1px 2px white;
     margin: 2em;
+    z-index: 1;
 }
 
 .intro-dev-type{
     font-weight: var(--fw-large);
-    align-items: center;
+    text-align: center;
 }
 
 /*SERVICES SECTION STYLE*/

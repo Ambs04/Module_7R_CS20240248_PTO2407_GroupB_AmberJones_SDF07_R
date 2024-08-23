@@ -6,6 +6,25 @@
         --fs-h3: 2 rem;
         --fs-body: 1.2 rem;
     }
-    grid-gap: 4px;
 
+}
+
+@media (min-width: 600px){
+   .intro, .services, {
+    display: grid;
+    width: min-content;
+    grid-gap: 6px;
+
+   } 
+
+}
+
+@media (min-width: 400px){
+    .logo, .intro, .services, .about-me, .portfolio, .contact-me{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        align-content: center;
+    }
 }

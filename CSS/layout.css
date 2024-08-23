@@ -19,12 +19,13 @@ header{
 }
 
 .intro-heading{
-    width: calc(90%);
+    width: 15em;
     height: 2em;
     align-self: center;
     justify-content: center;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
+    padding: 10px
 }
 
 .intro-dev-type{

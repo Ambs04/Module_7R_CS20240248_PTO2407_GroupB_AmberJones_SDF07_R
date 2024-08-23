@@ -30,7 +30,7 @@
 }
 
 .nav-btn{
-    padding: 0.2em;
+    padding: 0.5em;
     background-color: var(--footer-color);
     border: 0;
     position: absolute;
@@ -60,8 +60,6 @@
     opacity: 0;
 }
 
-
-
 .hamburger-menu{
     display: block;
     position:relative;
@@ -76,5 +74,10 @@
 
 }
 
-.hamburger-menu::before{ top: 7px;}
-.hamburger-menu::after{ bottom: 7px;}
+.hamburger-menu::before{ 
+    top: 7px;
+}
+
+.hamburger-menu::after{ 
+    bottom: 7px;
+}
